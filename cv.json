@@ -1,0 +1,76 @@
+{
+    "contact":[
+        {
+            "name": "Mikael Jonsson",
+            "adress": "Härbrevägen 42",
+            "postalAdress": "891 51 Örnsköldsvik",
+            "phone": "076-103 71 13",
+            "email": "kiamel76@gmail.com"
+        }
+    ],
+    "work":[
+        {
+            "employer": "Tidningstjänst AB",
+            "position": "Roll: Verksamhetsstöd HR/Produktion",
+            "startDate": "Startdatum: 2013-06-01",
+            "endDate": "Slutdatum: 2021-04-30",
+            "description": "Arbetade med det mesta som rör anställningarna för tidningsdistributörerna i Örnsköldsvik, Härnösand, Kramfors och Sollefteå kommun. Upprättade bland annat anställningasavtal och lönerapporteringar med diverse kontroller. I arbetet ingår även arbetsmiljöarbete. Vidare även fordonsansvarig vilket i korthet innebär kontroll av konstnader på alla fordon samt planerar fordonsbehovet. Täta kontakter med PostNord då vi nyttjar varandras fordon för vilket jag då upprättar hyresavtal och interndebiteringar"
+        },
+        {
+            "employer": "Tidningstjänst AB",
+            "position": "Roll: Områdeschef",
+            "startDate": "Startdatum: 2012-06-01",
+            "endDate": "Slutdatum: 2013-05-31",
+            "description": "Personalansvarig för tidningsdistributörerna i Härnösand, Kramfors och Sollefteå kommun. Ansvarade bland annat för nyanställningar, distriktsförändringar, arbetsmiljö och löner. Vidare även fordonsansvarig vilket i korthet innebär kontroll av konstnader på alla fordon samt planerar fordonsbehovet."
+        },
+        {
+            "employer": "Svensk Morgondistribution KB",
+            "position": "Roll: Områdeschef",
+            "startDate": "Startdatum: 2012-01-01",
+            "endDate": "Slutdatum: 2012-05-31",
+            "description": "Personalansvarig för tidningsdistributörerna i Härnösand, Kramfors och Sollefteå kommun. Ansvarade bland annat för nyanställningar, distriktsförändringar, arbetsmiljö och löner. Vidare även fordonsansvarig vilket i korthet innebär kontroll av konstnader på alla fordon samt planerar fordonsbehovet."
+        }
+    ],
+    "education":[
+        {
+            "schoolName": "Edugrade Örnsköldsvik",
+            "area": "Systemutvecklare.NET med AI-kompetens",
+            "startDate": "Startdatum: 2021-09-06",
+            "endDate": "Slutdatum: Pågående"
+        },
+        {
+            "schoolName": "Komvux Örnsköldsvik",
+            "area": "Matematik 2 samt Programmering 1",
+            "startDate": "Startdatum: 2021-02-01",
+            "endDate": "Slutdatum: 2021-04-01"
+        },
+        {
+            "schoolName": "Ådalsskolan Kramfors",
+            "area": "Automatiseringsteknik",
+            "startDate": "Startdatum: 1994-08-01",
+            "endDate": "Slutdatum: 1995-06-01"
+        },
+        {
+            "schoolName": "Ådalsskolan Kramfors",
+            "area": "El-teleteknik",
+            "startDate": "Startdatum: 1992-08-01",
+            "endDate": "Slutdatum: 1994-06-01"
+        }
+    ],
+    "compKnowledge":[
+        {
+            "csharp": "C# - grundläggande kunskaper",
+            "db": "Databas och SQL - grundläggande kunskaper",
+            "agileMethods": "Projektledning och Agila metoder - grundläggande kunskaper",
+            "Lightroom": "Lightroom - goda kunskaper",
+            "Photoshop": "Photoshop - grundläggande kunskaper"
+        }
+    ],
+    "language":[
+        {
+            "english": "Engelska - goda kunskaper i tal och skrift",
+            "german": "Tyska - förstår mycket enkla konversationer",
+            "russian": "Ryska - förstår mycket enkla konversationer"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="style.css" media="screen" rel="stylesheet">
+    <!--JS-->
+    
+    <title>Laboration 1 - CV</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="wrapper-index">
+        <header> 
+            <nav>
+                <div>
+                    <ul >
+                        <li class="current mobile"><a id="nav1" href="index.html">Hem</a></li>
+                        <li class="mobile"><a id="nav2" href="cv.html">CV</a></li>
+                        <li class="mobile"><a id="nav3" href="project.html">Projekt</a></li>
+                        <li class="mobile"><a id="nav4" href="about.html">Jag</a></li>
+                        <!-- <li class="mobile"><a  href="gallery.html">Galleri</a></li> -->
+                    </ul>
+                </div>
+                
+            </nav>
+        </header>
+    
+        <main class="main-index welcome ">
+                <h1 id="easterEgg1">Välkommen</h1><br>
+                <button data-modal-target="#modal" hidden>Open Modal</button>
+                <div class="modal" id="modal">
+                    
+                    <div class="modal-header">
+                        <div class="title">Example Modal</div>
+                        <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                            RickRoll-tjosan här
+                    </div>
+                </div>
+                <div id="overlay"></div>
+                
+                <script src="easterEgg.js"></script>
+                
+        </main>
+    
+        <footer>
+            <p>&copy 2022 Mikael Jonsson</p>
+        </footer>
+    </div>
+    
+
+</body>
+
+</html>

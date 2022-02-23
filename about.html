@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="style.css" media="screen" rel="stylesheet">
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Om mig</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <!--Här ska alltså taggarna som är child till wrapper placeras i grid-->
+    <!--Det jag lägger i children, tex header som ska innehålla nav, kan man sätta flexbox på?-->
+    <!--Klassen "Box" är bara till för att man enkelt ska se hur varje element ligger-->
+    <div class="wrapper-about">
+        <header> 
+            <nav>
+                <ul>
+                    <li class="mobile"><a href="index.html">Hem</a></li>
+                    <li class="mobile"><a href="cv.html">CV</a></li>
+                    <li class="mobile"><a href="project.html">Projekt</a></li>
+                    <li class="current mobile"><a href="about.html">Jag</a></li>
+                    <!-- <li class="mobile"><a href="gallery.html">Galleri</a></li> -->
+                </ul>
+            </nav>
+        </header>
+    
+        <main class="main-about">
+            <article class="about-text">
+                <h1>Lite kort om mig</h1>
+                <p>
+                    Jag är 45 år och bor med min fru och bonusson i en villa i Örnsköldsvik samt har en
+                    egen son som är 23 år och bor i Falun. 
+                </p>
+                <p>
+                    Jag kommer närmast från en bakgrund inom morgontidningsdistribution där jag axlat arbetsledarroller
+                    i olika former samt hanterat frågor av mer HR-karaktär. Jag har nu beslutat mig för byta 
+                    inriktning och studerar därför till systemutvecklare.NET och känner verkligen att jag kommit
+                    rätt (även om jag ännu bara är i början av studierna).
+                </p>
+            </article> 
+            <article class="about-text2">
+                
+                <p>
+                    Jag spenderar stor del av min fritid i skog och mark och det ligger till grund för min stora hobby som är
+                    fotografering. Både planering, sjäva utförandet och redigeringen av bilderna är något jag kan lägga ner
+                    mycket tid på. För att fylla ut den femte och sista sidan så lade jag in några
+                    av mina bilder där för ett enkelt bildgalleri.
+                </p>
+                <p>Nedan är länkar till mina sociala medier där jag titt som tätt lägger ut lite material.</p>
+
+                <div class="about-social-media">
+                    <div class="about-fb"><a href="https://www.facebook.com/fotografmikaeljonsson/" target="_blank" class="fa fa-facebook"></a></div>
+                    <div class="about-ig"><a href="https://www.instagram.com/fotograf_mikael_jonsson/" target="_blank" class="fa fa-instagram"></a></div>
+                    <div class="about-tw"><a href="https://twitter.com/fotografmikaelj" target="_blank" class="fa fa-twitter"></a></div>
+                </div>
+            </article> 
+            
+            <article class="about-img">
+                <figure>
+                    <img class="profilepic2" src="img/about-me.jpg" width="100%">
+                </figure>
+            </article>
+        </main>
+    
+        <footer>
+            <p>&copy 2022 Mikael Jonsson</p>
+        </footer>
+    </div>
+    
+
+</body>
+
+</html>
