@@ -1,11 +1,16 @@
 
-const jsonUrl = "cv.json";
 
+// ----- fetch funktionen -------------
+const jsonUrl = "cv.json";
+getAllData();
 async function getAllData() {
   const response = await fetch(jsonUrl);
   const data = await response.json();
   console.log(data);
 
+  
+
+// ---- Utskrift av respektive objekt. Måste gå att göra bättre --------
   const contact = data.contact;
   let contactText = "";
   for (let i = 0; i < contact.length; i++) {
@@ -49,7 +54,7 @@ async function getAllData() {
       let value = obj[key];
       compText += "<br>"+ value;
     }
-    document.getElementById("compknow").innerHTML = compText;
+    document.getElementById("comp-know").innerHTML = compText;
   }
 
   const lang = data.language;
@@ -63,4 +68,3 @@ async function getAllData() {
     document.getElementById("language").innerHTML = langText;
   }
 }
-getAllData();
