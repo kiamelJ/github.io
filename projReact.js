@@ -17,7 +17,7 @@
             console.log(json)
             this.setState({
               items: json,
-              DataisLoaded: true,   
+              DataisLoaded: true,
             });
           });
       }
@@ -35,7 +35,8 @@
             <h1> Projektdata hämtad från GitHub via API </h1>{" "}
             {items.map((item) => (
               <ol key={item.id}>
-                Namn: {item.name} <br/>Beskrivning: {item.body},    
+                <strong>Namn:</strong> {item.name} <br/>
+                <strong>Beskrivning:</strong> {item.body},    
               </ol>
             ))}
           </div>
