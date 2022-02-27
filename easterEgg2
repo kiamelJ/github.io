@@ -14,7 +14,6 @@ const keyHandler = function (event) {
     if (pattern.length === current) {
         current = 0;
         openModal(modal)
-        //window.alert('Nu ska modal popup kicka igång och köra rick-roll');
     }
 };
 document.addEventListener('keydown', keyHandler, false);
